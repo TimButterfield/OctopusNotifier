@@ -1,6 +1,8 @@
 # OctopusNotifier
 
-##### Having worked with JetBrains TeamCity for a number of years I found the notification system in Octopus a little lacking. That is I found the tray notifier in TeamCity a great way to stay up to date with Build/Deployment state. 
+###A customizable toast style notifier that informs you when an Octopus Deployment fails. 
+
+##### Having worked with JetBrains TeamCity for a number of years I found the notification system in Octopus a little basic. By comparison I found the tray notifier in TeamCity a great way to stay up to date with Build/Deployment state. 
 
 OctopusNotifier is a very basic attempt at trying to create notification mechanism with some individual flexibility (i.e. user specific prefernces) that is similar to the TeamCity tray notifier. 
 
