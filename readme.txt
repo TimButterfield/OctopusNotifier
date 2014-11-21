@@ -1,4 +1,4 @@
-#Octopus Notifier
+# OctopusNotifier
 
 # H5 Having worked with JetBrains TeamCity for a number of years I found the notification system in Octopus a little lacking. That is I found the tray notifier in TeamCity a great way to stay up to date with Build/Deployment state. 
 
