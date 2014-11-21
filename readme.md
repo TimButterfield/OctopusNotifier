@@ -2,7 +2,7 @@
 
 ###A customizable toast style notifier that informs you of Deployment state/changes. 
 
-##### OctopusDeploy is a fantastic deployment tool. I've used it for approximately 8 months but one of it's short comings is the notification system. By comparison the JetBrains TeamCity ships with the option of using a system tray notifier to keep you up to speed with the state of one more configurable builds/deployments. OctopusNotifier is a very basic attempt at trying to create notification mechanism with some individual flexibility (i.e. user specific preferences) that is similar to the TeamCity tray notifier. 
+OctopusDeploy is a fantastic deployment tool. I've used it for approximately 8 months but one of it's short comings is the notification system. By comparison the JetBrains TeamCity ships with the option of using a system tray notifier to keep you up to speed with the state of one more configurable builds/deployments. OctopusNotifier is a very basic attempt at trying to create notification mechanism with some individual flexibility (i.e. user specific preferences) that is similar to the TeamCity tray notifier. 
 
 It's currently vanilla, naive and ignores caching and performance considerations. It runs as a noddy console app. However it will poll your Octopus server, monitor changes in the deployment state for a given project and environment and when required produce a toast style notification. 
 
