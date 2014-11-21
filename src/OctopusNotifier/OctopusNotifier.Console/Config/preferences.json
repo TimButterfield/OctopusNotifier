@@ -1,0 +1,27 @@
+﻿{
+	"pollingInterval" : 300000,
+	"projects" : [{
+		"name" : "Project A",
+		"environments" : [{
+			"name" : "Environment A",
+			"notifications" : [{
+				"onTransitionTo" : "Failed"
+			}, {
+				"onTransitionTo" : "Success"
+			}]
+		}, {
+			"name" : "Environment A",
+			"notifications" : [{
+				"hasState" : "Failed"
+			}]
+		}]
+	}, {
+		"name" : "Project B",
+		"environments" : [{
+			"name" : "Environment A",
+			"notifications" : [{
+				"hasState" : "Failed"
+			}]
+		}]
+	}]
+}
